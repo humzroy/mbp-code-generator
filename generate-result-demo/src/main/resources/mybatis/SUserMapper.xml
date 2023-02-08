@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.github.humzroy.dao.ISUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.github.humzroy.generator.demo.high.entity.SUser">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="user_name" property="userName" />
+        <result column="password" property="password" />
+        <result column="nick_name" property="nickName" />
+        <result column="role" property="role" />
+        <result column="email_address" property="emailAddress" />
+        <result column="note" property="note" />
+        <result column="create_time" property="createTime" />
+        <result column="create_by" property="createBy" />
+        <result column="udpate_time" property="udpateTime" />
+        <result column="update_by" property="updateBy" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, user_id, user_name, `password`, nick_name, role, email_address, note, create_time, create_by, udpate_time, update_by
+    </sql>
+    <sql id="Base_Column_List_2">
+    s_user.id,
+    s_user.user_id,
+    s_user.user_name,
+    s_user.`password`,
+    s_user.nick_name,
+    s_user.role,
+    s_user.email_address,
+    s_user.note,
+    s_user.create_time,
+    s_user.create_by,
+    s_user.udpate_time,
+    s_user.update_by,
+    </sql>
+
+</mapper>

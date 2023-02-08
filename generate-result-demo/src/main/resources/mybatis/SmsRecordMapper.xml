@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.github.humzroy.generator.demo.high.dao.ISmsRecordMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.github.humzroy.generator.demo.high.entity.SmsRecord">
+        <id column="id" property="id" />
+        <result column="platform_code" property="platformCode" />
+        <result column="phones" property="phones" />
+        <result column="content" property="content" />
+        <result column="sms_type" property="smsType" />
+        <result column="signature" property="signature" />
+        <result column="msg_id" property="msgId" />
+        <result column="split_count" property="splitCount" />
+        <result column="send_success" property="sendSuccess" />
+        <result column="create_by" property="createBy" />
+        <result column="create_time" property="createTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, platform_code, phones, content, sms_type, signature, msg_id, split_count, send_success, create_by, create_time
+    </sql>
+    <sql id="Base_Column_List_2">
+    sms_record.id,
+    sms_record.platform_code,
+    sms_record.phones,
+    sms_record.content,
+    sms_record.sms_type,
+    sms_record.signature,
+    sms_record.msg_id,
+    sms_record.split_count,
+    sms_record.send_success,
+    sms_record.create_by,
+    sms_record.create_time,
+    </sql>
+
+</mapper>

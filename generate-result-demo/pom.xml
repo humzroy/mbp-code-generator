@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mbp-code-generator</artifactId>
+        <groupId>com.github.hunzroy</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>generate-result-demo</artifactId>
+
+    <properties>
+        <humzroy.framework.version>1.0-SNAPSHOT</humzroy.framework.version>
+    </properties>
+
+    <dependencies>
+        <!--基础依赖-->
+        <dependency>
+            <groupId>com.github.humzroy.framework</groupId>
+            <artifactId>humzroy-core</artifactId>
+            <version>${humzroy.framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.humzroy.framework</groupId>
+            <artifactId>humzroy-starter-dynamic-datasource</artifactId>
+            <version>${humzroy.framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.humzroy.framework</groupId>
+            <artifactId>humzroy-starter-web</artifactId>
+            <version>${humzroy.framework.version}</version>
+        </dependency>
+    </dependencies>
+</project>

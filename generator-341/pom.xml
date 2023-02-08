@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mbp-code-generator</artifactId>
+        <groupId>com.github.hunzroy</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>generator-341</artifactId>
+
+    <properties>
+        <humzroy.framework.version>1.0-SNAPSHOT</humzroy.framework.version>
+        <mybaits.generator.version>3.4.1</mybaits.generator.version>
+    </properties>
+
+    <dependencies>
+        <!--海慧金科基础框架依赖-->
+        <dependency>
+            <groupId>com.github.humzroy.framework</groupId>
+            <artifactId>humzroy-core</artifactId>
+            <version>${humzroy.framework.version}</version>
+        </dependency>
+        <!--mybatis-plus生成器-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>${mybaits.generator.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
+        </dependency>
+        <!--mysql-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+    </dependencies>
+
+</project>
