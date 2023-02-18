@@ -7,7 +7,7 @@ import ${superServiceImplClassPackage};
 import ${package.Mapper}.${table.mapperName};
 import ${package.Entity}.${entity};
 import ${package.Service}.${table.serviceName};
-import com.github.humzroy.framework.core.util.DateUtil;
+import com.github.yizhen.framework.core.util.DateUtil;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;

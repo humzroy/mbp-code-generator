@@ -1,10 +1,10 @@
 package ${package.Controller};
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.github.humzroy.framework.mybatis.base.BaseController;
+import com.github.yizhen.framework.mybatis.base.BaseController;
 import ${package.Entity}.${entity};
 import ${package.Service}.${table.serviceName};
-import com.github.humzroy.framework.core.api.ApiResult;
+import com.github.yizhen.framework.core.api.ApiResult;
 <#if swagger>
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -53,7 +53,7 @@ public class ${table.controllerName} {
      * 分页查询
      *
      * @param conditions
-     * @return com.github.humzroy.framework.core.api.ApiResult
+     * @return com.github.yizhen.framework.core.api.ApiResult
      * @author ${author}
      * @date ${date}
      */
@@ -71,7 +71,7 @@ public class ${table.controllerName} {
      * 列表查询
      *
      * @param conditions
-     * @return com.github.humzroy.framework.core.api.ApiResult
+     * @return com.github.yizhen.framework.core.api.ApiResult
      * @author ${author}
      * @date ${date}
      */
@@ -89,7 +89,7 @@ public class ${table.controllerName} {
      * 单条查询
      *
      * @param conditions
-     * @return com.github.humzroy.framework.core.api.ApiResult
+     * @return com.github.yizhen.framework.core.api.ApiResult
      * @author ${author}
      * @date ${date}
      */
@@ -107,7 +107,7 @@ public class ${table.controllerName} {
      * 保存记录
      *
      * @param record
-     * @return com.github.humzroy.framework.core.api.ApiResult
+     * @return com.github.yizhen.framework.core.api.ApiResult
      * @author ${author}
      * @date ${date}
      */
@@ -128,7 +128,7 @@ public class ${table.controllerName} {
      * 删除记录
      *
      * @param conditions
-     * @return com.github.humzroy.framework.core.api.ApiResult
+     * @return com.github.yizhen.framework.core.api.ApiResult
      * @author ${author}
      * @date ${date}
      */
@@ -149,7 +149,7 @@ public class ${table.controllerName} {
 <#--     * 逻辑删除记录-->
 <#--     *-->
 <#--     * @param id-->
-<#--     * @return com.github.humzroy.framework.core.api.ApiResult-->
+<#--     * @return com.github.yizhen.framework.core.api.ApiResult-->
 <#--     * @author ${author}-->
 <#--     * @date ${date}-->
 <#--     */-->

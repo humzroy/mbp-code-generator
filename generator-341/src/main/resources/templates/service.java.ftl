@@ -3,7 +3,7 @@ package ${package.Service};
 import ${package.Entity}.${entity};
 import ${superServiceClassPackage};
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.github.humzroy.framework.core.enums.DeleteEnums;
+import com.github.yizhen.framework.core.enums.DeleteEnums;
 
 import java.util.List;
 

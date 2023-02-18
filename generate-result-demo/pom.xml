@@ -12,27 +12,27 @@
     <artifactId>generate-result-demo</artifactId>
 
     <properties>
-        <humzroy.framework.version>1.0-SNAPSHOT</humzroy.framework.version>
+        <yizhen.framework.version>1.0-SNAPSHOT</yizhen.framework.version>
     </properties>
 
     <dependencies>
         <!--基础依赖-->
         <dependency>
-            <groupId>com.github.humzroy.framework</groupId>
-            <artifactId>humzroy-core</artifactId>
-            <version>${humzroy.framework.version}</version>
+            <groupId>com.github.yizhen.framework</groupId>
+            <artifactId>yizhen-core</artifactId>
+            <version>${yizhen.framework.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>com.github.humzroy.framework</groupId>
-            <artifactId>humzroy-starter-dynamic-datasource</artifactId>
-            <version>${humzroy.framework.version}</version>
+            <groupId>com.github.yizhen.framework</groupId>
+            <artifactId>yizhen-starter-dynamic-datasource</artifactId>
+            <version>${yizhen.framework.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>com.github.humzroy.framework</groupId>
-            <artifactId>humzroy-starter-web</artifactId>
-            <version>${humzroy.framework.version}</version>
+            <groupId>com.github.yizhen.framework</groupId>
+            <artifactId>yizhen-starter-web</artifactId>
+            <version>${yizhen.framework.version}</version>
         </dependency>
     </dependencies>
 </project>

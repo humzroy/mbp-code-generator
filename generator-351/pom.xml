@@ -12,7 +12,7 @@
     <artifactId>generator-351</artifactId>
 
     <properties>
-        <humzroy.framework.version>1.0-SNAPSHOT</humzroy.framework.version>
+        <yizhen.framework.version>1.0-SNAPSHOT</yizhen.framework.version>
         <mybaits.generator.version>3.5.1</mybaits.generator.version>
         <!-- mybatis-plus-boot-starter版本 -->
         <mybatis-plus-boot-starter.version>3.5.1</mybatis-plus-boot-starter.version>
@@ -20,9 +20,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.github.humzroy.framework</groupId>
-            <artifactId>humzroy-core</artifactId>
-            <version>${humzroy.framework.version}</version>
+            <groupId>com.github.yizhen.framework</groupId>
+            <artifactId>yizhen-core</artifactId>
+            <version>${yizhen.framework.version}</version>
         </dependency>
         <!-- mybatis-plus依赖 -->
         <dependency>

@@ -12,16 +12,16 @@
     <artifactId>generator-341</artifactId>
 
     <properties>
-        <humzroy.framework.version>1.0-SNAPSHOT</humzroy.framework.version>
+        <yizhen.framework.version>1.0-SNAPSHOT</yizhen.framework.version>
         <mybaits.generator.version>3.4.1</mybaits.generator.version>
     </properties>
 
     <dependencies>
         <!--海慧金科基础框架依赖-->
         <dependency>
-            <groupId>com.github.humzroy.framework</groupId>
-            <artifactId>humzroy-core</artifactId>
-            <version>${humzroy.framework.version}</version>
+            <groupId>com.github.yizhen.framework</groupId>
+            <artifactId>yizhen-core</artifactId>
+            <version>${yizhen.framework.version}</version>
         </dependency>
         <!--mybatis-plus生成器-->
         <dependency>
